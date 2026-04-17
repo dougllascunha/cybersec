@@ -1,62 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersec Portal - Notícias de Tecnologia </title>
-    <link rel="stylesheet" href="style_index.css">
-</head>
-<body>
-    <header>
-        <h1>CyberSec Portal</h1>
-        <nav>
-            <ul id = "menu">
-
-                <li><a href="#home"> Home </a> </li>
-                <li><a href="#artigos"> Artigos </a></li>
-                <li><a href="#contato">Contato </a></li>
-                
-            </ul>
-        </nav>
-        
-    </header>
-    <main>
-        <section id="destaque">
-            <article>
-                <h2> Ameaças de Ransomware em 2026 </h2>
-                <p>Descubra como Proteger sua infraestrutura contra
-                     as novas variantes...</p>
-                <img src="https://nova8.com.br/2022/wp-content/uploads/2022/01/cloud-computer-and-cyber-security-background-picture-id1169999045.jpg" 
-                     alt="Imagem ilustrativa de segurança">
-            </article>
-        </section>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cybersec Portal - Notícias de Tecnologia </title>
+        <link rel="stylesheet" href="style_index.css">
+    </head>
+    <body>
+        <header>
+            <h1>CyberSec Portal</h1>
+            <nav>
+                <ul id = "menu">
+                    
+                    <li><a href="#home"> Home </a> </li>
+                    <li><a href="#artigos"> Artigos </a></li>
+                    <li><a href="#contato">Contato </a></li>
+                    
+                </ul>
+            </nav>
+            
+        </header>
+        <main class="principal">
         <div class="grid-container">
+            
+            <section id="home">
+                <article>
+                    <h2> Ameaças de Ransomware em 2026 </h2>
+                    <p class="texto">Ransomware é um tipo de malware (software malicioso) utilizado por criminosos virtuais para sequestrar dados ou sistemas. 
+                        Esse tipo de ataque tem se tornado cada vez mais comum e perigoso, principalmente em empresas e órgãos públicos.</p>
+                        <p class="texto">O ransomware funciona infectando o sistema Windows ou outro sistema operacional, geralmente por meio de arquivos maliciosos ou links suspeitos. 
+                            Após a infecção, ele é executado em segundo plano sem que o usuário perceba.
+                            Quando o usuário tenta acessar seus arquivos ou o sistema, percebe que tudo está bloqueado ou criptografado, sendo exibida uma mensagem exigindo pagamento para liberar o acesso. </p>
+                            <br><img src="https://nova8.com.br/2022/wp-content/uploads/2022/01/cloud-computer-and-cyber-security-background-picture-id1169999045.jpg" 
+                            alt="Imagem ilustrativa de segurança"><br>
+                        </article>
+                        <p>Descubra como Proteger sua infraestrutura contra
+                            as novas variantes...</p><br>
+                            
+                </section>
+                
+                <section id="artigos">
+                    
+                    <article class="card">
+                        <h3> Zero Trust Architecture</h3>
+                        <p> O fim das VPNs tradicionais? </p><br>
+                        <p class="texto">O Zero Trust é um modelo de segurança que não confia automaticamente em nenhum acesso. 
+                            Ele considera que o ambiente pode estar sempre sob risco ou descontrolado, fazendo com que todas as conexões sejam verificadas continuamente. 
+                            Dessa forma, cada acesso à rede ou aos dados é validado, independentemente de estar dentro da rede corporativa, em uma VPN ou fora dela.</p>
+                        <p class="texto">É considerado o fim das VPNs tradicionais porque elas deixaram de ser totalmente seguras. 
+                            Isso ocorre porque, se uma pessoa conseguir se infiltrar em uma VPN, ela poderá ter acesso a vários recursos disponíveis naquela conexão. Diferente do modelo Zero Trust, que está sempre realizando verificações contínuas. Mesmo que um invasor consiga entrar na rede,
+                             as verificações continuam acontecendo como se a conexão não fosse confiável, o que impede que o invasor tenha acesso a todas as informações.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Autenticação Multi-Fator</h3>
+                                    <p >Por que senhas não são mais suficientes? </p>
+                                    <br>
+                                    <p class="texto">A autenticação multifator, ou MFA, é uma forma de verificar a identidade do usuário mais segura do que a clássica combinação de nome de usuário e senha. 
+                                        A MFA geralmente utiliza uma senha, mas também incorpora um ou dois fatores adicionais de autenticação.</p>
+                                    <p class="texto">A autenticação de dois fatores (2FA) é um tipo de MFA. Ela é chamada de dois fatores pelo fato de utilizar dois meios para verificar se é realmente a pessoa que está utilizando a conta. Isso pode ocorrer, por exemplo, com a verificação da senha do usuário e a confirmação por meio de um número de celular, tornando o processo de autenticação mais seguro.</p>
+                                    
+                                </article>
+                            </section>
+                            
+                            <aside>
+                                <h3> Mais Lidos </h3>
+                                <ul class="lista2">
+                                    <li><a href="exercicio1.html">Análise de Logs para Iniciantes</a></li>
+                                    <li><a href="exercicio2.html">Gestão de Identidade (IAM)</a></li>
+                                    <li><a href="https://www.cloudflare.com/pt-br/learning/access-management/what-is-multi-factor-authentication/">Autenticação Multi Fator (MFA)</a></li>
+                                    <li><a href="https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview">Zero Trust Architecture</a></li>
+                                    <li><a href="https://www.techtudo.com.br/guia/2023/05/o-que-e-ransomware-entenda-como-funciona-e-como-remover-o-malware-edsoftwares.ghtml">O Que é Ransomware</a></li>
+                                </ul>
+                            </aside>
+           
+            </main>
+                <footer>
+                    <section id="contato">
 
-            <section id="artigos">
-
-                <article class="card">
-                    <h3> Zero Trust Architecture</h3>
-                    <p> O fim das VPNs tradicionais? </p>
-                </article>
-                <article class="card">
-                    <h3>Autenticação Multi-Fator</h3>
-                    <p>Por que senhas não são mais suficientes. </p>
-
-                </article>
-            </section>
-
-            <aside>
-                <h3> Mais Lidos </h3>
-                    <ul class="lista2">
-                        <li><a href="exercicio2.html">Análise de Logs para Iniciantes</a></li>
-                        <li><a href="exercicio1.html">Gestão de Identidade (IAM)</a></li>
-                    </ul>
-            </aside>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2026 CyberSec Portal. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+                        &copy; 2026 CyberSec Portal. Todos os direitos reservados.</p>
+                        <ul class ="final">
+                            
+                            <div>
+                                <h4>Contato</h4>
+                                <p>Email: douglas.cunha@gmail.com</p>
+                                <p>Número: (61)995540760</p>
+                            </div>
+                            
+                            <div >
+                                <h4>Redes sociais</h4>
+                                <p>Instagram: @dougllash</p>
+                                <p>Github: dougllascunha</p>
+                            </div>
+                        </ul>
+                    </section>
+                </footer>
+            </body>
+            </html>
